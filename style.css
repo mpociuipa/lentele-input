@@ -1,0 +1,60 @@
+*{
+    background: white;
+    margin: 0;
+    font-family: roboto;
+   
+    
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+input {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid black;   
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    
+}
+
+.btn button {
+    background: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+table{
+    height: 200px;
+    border-collapse: collapse;
+    width: 100%;
+}
+table, th,td{
+    border: 1px solid gold;
+}
+th{
+    background: gold;
+    color: black;
+  
+    
+}
+td{
+    background: rgb(89, 18, 221);;
+    color: white;
+    text-align: center;
+}
+
